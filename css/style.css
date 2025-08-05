@@ -1,0 +1,42 @@
+/* Estilos generales para el tema oscuro de la página */
+body {
+    background-color: #212529;
+    color: #f8f9fa;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header .navbar { border-bottom: 1px solid #495057; }
+main { flex-grow: 1; }
+.card {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card-title { color: #ffffff; }
+footer {
+    background-color: #1a1e21;
+    border-top: 1px solid #495057;
+}
+.form-label { color: #adb5bd; }
+.form-control {
+    background-color: #495057;
+    border-color: #6c757d;
+    color: #f8f9fa;
+}
+.form-control:focus {
+    background-color: #495057;
+    border-color: #86b7fe;
+    color: #f8f9fa;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.reloj-card {
+    background: linear-gradient(45deg, #007bff, #28a745);
+    color: white;
+    padding: 30px;
+}
+.cronometro-display, .temporizador-display {
+    font-family: 'Courier New', Courier, monospace;
+}
